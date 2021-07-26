@@ -6,7 +6,7 @@ import PopularTitle from '../PopularTitle/PopularTitle';
 const Home = () => {
     return (
         <SiteLayout>
-            <PopularTitle></PopularTitle>
+            <PopularTitle title='Titles'></PopularTitle>
             <HeroSection></HeroSection>
         </SiteLayout>
     );

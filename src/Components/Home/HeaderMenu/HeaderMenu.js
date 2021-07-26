@@ -4,7 +4,7 @@ import { Button, Form, Navbar } from 'react-bootstrap';
 const HeaderMenu = () => {
     return (
         <Navbar className="container-fluid text-white" bg="primary" expand="lg">
-            <Navbar.Brand className="text-white" href="#"><h1>Movie World</h1></Navbar.Brand>
+            <Navbar.Brand className="text-white" href="/"><h1>Movie World</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Form className="d-flex ms-auto">

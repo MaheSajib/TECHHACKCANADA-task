@@ -10,13 +10,13 @@ const Footer = () => {
                 <p>Home | Terms and Conditions | Privacy Policy | Collection Statement | Help | Manage Account</p>
                 <p>Copyright © {(new Date()).getFullYear()} Movie World. All Rights Reserved.</p>
             </footer>
-            <div className="social-section container p-3 d-flex">
-                <div className=" col-md-6">
+            <div className="social-section container p-3 d-flex flex-wrap">
+                <div className=" col-md-7">
                     <FontAwesomeIcon className="icon-section mx-2" icon={faFacebook} />
                     <FontAwesomeIcon className="icon-section mx-2" icon={faTwitter} />
                     <FontAwesomeIcon className="icon-section mx-2" icon={faInstagram} />
                 </div>
-                <div className="banner col-md-6">
+                <div className="banner col-md-5">
                     <img src="/images/en_apple.png" alt="" />
                     <img src="/images/en_google.png" alt="" />
                     <img src="/images/en-MS.png" alt="" />
