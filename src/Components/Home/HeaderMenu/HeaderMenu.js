@@ -8,7 +8,7 @@ const HeaderMenu = () => {
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Form className="d-flex ms-auto">
-                    <Button className="m-2" variant="btn btn-success">Log in</Button>
+                    <Button className="m-2" variant="btn btn-primary">Log in</Button>
                     <Button className="m-2" variant="btn btn-dark">Start your free trail</Button>
                 </Form>
             </Navbar.Collapse>
